@@ -1,0 +1,27 @@
+{
+    "name": "tbcd/rabbitmq-client",
+    "type": "library",
+    "description": "A library to manage RabbitMQ queues, exchanges and bindings",
+    "authors": [
+        {
+            "name": "Thomas Beauchataud"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "rabbitmq",
+        "amqp"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.0.0",
+    "require": {
+        "php": ">=8.0.2",
+        "php-amqplib/php-amqplib": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "TBCD\\RabbitMQClient\\": "src/"
+        }
+    }
+}
